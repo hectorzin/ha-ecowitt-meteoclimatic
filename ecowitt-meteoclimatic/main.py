@@ -46,9 +46,7 @@ app = Flask(__name__)
 def receive_data():
     try:
         # Recibir datos enviados por la estación Ecowitt
-        logger.info("antes receive_data")
         data = request.form.to_dict() if request.form else request.args.to_dict()
-        logger.info("receive_data")
         logger.debug(f"Datos recibidos: {json.dumps(data)}")
 
         # Enviar datos a Home Assistant como la propia estación
