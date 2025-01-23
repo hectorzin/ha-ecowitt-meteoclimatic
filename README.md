@@ -40,6 +40,7 @@ El complemento se configura desde la interfaz de Home Assistant. Accede a la sec
 | `home_assistant_port`     | Puerto del servidor de Home Assistant (normalmente 8123).                                       | Sí            |
 | `path`                    | Ruta del webhook para recibir datos de la estación, la proporciona la integración Ecowitt.      | Sí            |
 | `station_code`            | Código de tu estación meteorológica registrado en Meteoclimatic.                                | Sí            |
+| `send_to_meteoclmatic`    | Deshabilitarlo si temporalmente no quieres enviar datos a meteoclimatic.                        | Sí            |
 | `api_key`                 | Clave API proporcionada por Meteoclimatic.                                                      | Sí            |
 | `debug`                   | Activa el modo de depuración para ver logs detallados.                                          | No            |
 
