@@ -2,6 +2,8 @@
 
 ## Descripción
 
+Este complemento se basa en el código que publicó @tonicb en el foro meteoclimatic. A partir de ese código yo he creado este complemento para Home Asistant, para hacer mucho más fácil en la mayoría de los casos la integración con Home Assistant
+
 El complemento **Ecowitt-Meteoclimatic** permite integrar tu estación meteorológica **Ecowitt** con **Home Assistant** y, al mismo tiempo, enviar datos a **Meteoclimatic**, una red de estaciones meteorológicas. Esto te permitirá registrar y visualizar los datos de tu estación tanto localmente como en la plataforma de Meteoclimatic.
 
 El complemento es altamente configurable, soporta múltiples arquitecturas y es ideal para quienes deseen centralizar la gestión de datos meteorológicos.
