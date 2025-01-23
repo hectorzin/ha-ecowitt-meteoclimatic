@@ -1,0 +1,28 @@
+name: "Ecowitt-meteoclimatic"
+version: "1.0.0"
+slug: "ecowitt-meteoclimatic"
+description: "Integration at the same time for Ecowitt station and sending data to ecoclimatic"
+url: "https://github.com/hectorzin/ecowitt-meteoclimatic/tree/main/ha-addon"
+init: false
+ports:
+  8120/tcp: 8120
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+options:
+  home_assistant_server: "homeassistant.local"
+  home_assistant_port: 8123
+  send_to_meteoclimatic: True
+  path:
+schema:
+  home_assistant_server: str
+  home_assistant_port: int
+  path: str
+  send_to_meteoclimatic: bool
+  station_code: str
+  api_key: str
+  debug: bool?

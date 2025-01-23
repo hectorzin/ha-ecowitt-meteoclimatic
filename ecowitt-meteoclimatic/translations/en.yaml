@@ -1,0 +1,22 @@
+configuration:
+  home_assistant_server:
+    name: "Home Assistant Server"
+    description: "The local hostname or local IP address of the Home Assistant server."
+  home_assistant_port:
+    name: "Home Assistant Port"
+    description: "The local port of the Home Assistant server."
+  path:
+    name: "Path"
+    description: "The API webhook path for incoming data that Ecowitt integration has given you."
+  station_code:
+    name: "Station Code"
+    description: "The code of your weather station in meteoclimatic."
+  api_key:
+    name: "API Key"
+    description: "The API key for sending data to ecoclimatic."
+  send_to_meteoclimatic:
+    name: "Send to meteoclimatic"
+    description: "Disable it if you want temporarlly not sending data to meteoclimatic."
+  debug:
+    name: "Debug Mode"
+    description: "Enable debug mode to see detailed logs."
