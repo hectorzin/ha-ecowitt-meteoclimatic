@@ -1,0 +1,6 @@
+{
+  "name": "Ecowitt-meteoclimatic Add-on",
+  "description": "Allows to receive data from Ecowitt stations and send it to Home Assistant and then to meteoclimatic..",
+  "url": "https://github.com/hectorzin/ha-ecowitt-meteoclimatic",
+  "maintainer": "HectorziN"
+}
