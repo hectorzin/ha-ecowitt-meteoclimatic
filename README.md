@@ -24,7 +24,7 @@ El complemento es altamente configurable, soporta múltiples arquitecturas y es 
 1. Dirígete a la sección **Supervisor** en tu instalación de Home Assistant.
 2. Haz clic en la pestaña **Complementos** y selecciona la opción para agregar un repositorio.
 3. Ingresa la URL del repositorio de este complemento:  
-   👉 [Repositorio en GitHub](https://github.com/hectorzin/ecowitt-meteoclimatic/tree/main/ha-addon)
+   👉 [Repositorio en GitHub](https://github.com/hectorzin/ha-ecowitt-meteoclimatic/tree/main/ha-addon)
 4. Busca el complemento **Ecowitt-Meteoclimatic** en la lista e instálalo.
 5. Una vez instalado, configúralo y asegúrate de iniciarlo.
 
@@ -79,7 +79,7 @@ debug: true
 ## Contribuciones
 
 Si encuentras un problema o tienes sugerencias, por favor crea un **issue** o un **pull request** en el repositorio oficial:  
-👉 [Repositorio en GitHub](https://github.com/hectorzin/ecowitt-meteoclimatic/tree/main/ha-addon)
+👉 [Repositorio en GitHub](https://github.com/hectorzin/ha-ecowitt-meteoclimatic/tree/main/ha-addon)
 
 ---
 
