@@ -1,4 +1,7 @@
-# Ecowitt-Meteoclimatic Home Assistant Add-on
+<h1 style="display: flex; align-items: center;">
+  <img src="https://raw.githubusercontent.com/hectorzin/ha-ecowitt-meteoclimatic/main/ecowitt-meteoclimatic/logo.png" width="40" style="margin-right: 10px;"/>
+  Ecowitt-Meteoclimatic Home Assistant Add-on
+</h1>
 
 ## Descripción
 
