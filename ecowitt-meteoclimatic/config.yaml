@@ -2,7 +2,7 @@ name: "Ecowitt-meteoclimatic"
 version: "1.0.0"
 slug: "ecowitt-meteoclimatic"
 description: "Integration at the same time for Ecowitt station and sending data to ecoclimatic"
-url: "https://github.com/hectorzin/ecowitt-meteoclimatic/tree/main/ha-addon"
+url: "https://github.com/hectorzin/ha-ecowitt-meteoclimatic/tree/main/ecowitt-meteoclimatic"
 init: false
 ports:
   8120/tcp: 8120
